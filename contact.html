@@ -21,10 +21,31 @@
         You can reach us through
          
     </p>
-    <ul>
+    <ul class="Bullet">
     <li><a href="https://wa.me/+254779185210?text=Hello%2C%20I%saw%20your%20Restaurant"><img src="whatsapp-brands.svg" alt="WhatsApp" class="icon"></a></li>
-    <li><a href="https://instagram.com/unco_motii"><img src="instagram-brands.svg" alt="Instagram" class="icon"></a></li>   
+    <li><a href="https://instagram.com/unco_motii"><img src="instagram-brands.svg" alt="Instagram" class="icon"></a></li> 
+    <li><a href="https://mail.google.com/?view=cm&fs1&to=tomchome30@gmail.com"><img src="envelope-solid.svg" alt="Gmail" class="icon"></a></li> 
+    <li><a href="https://x.com"><img src="x-twitter-brands.svg" alt="X" class="icon"></a></li> 
 </ul>
+
+</section>
+
+<section id="order">
+    <h2>Place Your Order</h2>
+    <form action="Submit-order" method="post">
+        <label for="Name">Your Name:</label><br>
+        <input type="text" id="Name" name="Name" required><br>
+        <label for="Phone">Phone Number</label><br>
+        <input type="Tel" id="Phone" name="Phone" required><br><br>
+        <Label for="Your Order">Your Order (Include your Location)</Label><br>
+        <textarea name="Order" id="order" rows="4" required></textarea><br><br>
+        <label for="Pick-up">Pickup or Delivery</label><br>
+        <select name="Pickup" id="Pickup">
+            <option value="Pickup">Pickup</option>
+            <option value="Delivery">Delivery</option>
+        </select><br><br>
+        <button type="submit">Submit Order</button>
+    </form>
 </section>
 </body>
 </html>
