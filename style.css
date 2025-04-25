@@ -108,14 +108,13 @@ body {
     color: #c0392b;
 }
 .about-section {
-    background-image: url(About.webp);
-    background-size: cover;
-    background-position: center;
+    
     padding: 80px 20px;
     color: #fff;
     text-align: center;
     min-height: 100vh;
     position: relative;
+    
 }
 .about-section::before {
     content: "";
@@ -125,6 +124,7 @@ body {
     height: 100%;
     background: rgba(0,0,0, 0.5);
     z-index: 0;
+    filter: blur(90px);
 }
 .about-section * {
     position: relative;
@@ -167,7 +167,6 @@ body {
 .icon {
     width: 24px;
     height: 24px;
-    
     
 }
 .inde {
@@ -241,4 +240,13 @@ section div button :hover {
     margin: 20px auto;
     border-radius: 90px;
 
+}
+.icon-container {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-direction: column;
+}
+.tog {
+    color: #014421;
 }
